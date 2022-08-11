@@ -374,6 +374,9 @@ bind -n M-Right select-pane -R
 bind -n M-Up select-pane -U
 bind -n M-Down select-pane -D
 
+# if you don't want Oh my tmux! to alter a binding, use #!important
+# bind v new-window -c #{pane_current_path} #!important
+
 # move status line to top
 # set -g status-position top
 set -g status-position bottom
